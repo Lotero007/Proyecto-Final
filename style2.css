@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+height: 100;
+background-image: url(Imagenes/bg6.jpg);
+color: #F2F2F2;
+max-width: 1500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    min-width: 900px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightseagreen;
+}
+
+.logo{
+    margin-left: -1100px;
+}
+
+.cont-ul{
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin-right: 50px;
+    position:absolute;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 0.3 ease 0s;
+}
+
+li:hover{
+    background-color: lightgreen;
+}
+
+.ul-second{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+}
+
+.ul-second >li{
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 20px;
+    width: 180px;
+    transform: translateX(-52px);
+    padding: 12px;
+}
+
+.ul-second >li:hover{
+    background-color: lightgreen;
+     
+}
+
+.develop:hover > .ul-second{
+    display: block;
+}
+
+.CRS{
+    text-align: center;
+    background-color: lightseagreen;
+    color: #F2F2F2;
+    padding: 20px;
+    border: none;
+}
+
+.CRS:hover{
+    background-color: lightgreen;
+}
+
+.ini{
+    text-align: center;
+    background-color: lightseagreen;
+    color: #F2F2F2;
+    padding: 1px;
+    border: none;
+}
+
+.ini:hover{
+    background-color: lightgreen;
+}
+
+.info{
+    text-align: center;
+    background-color: lightseagreen;
+    color: #F2F2F2;
+    padding: 1px;
+    border: none;
+}
+
+.info:hover{
+background-color: lightgreen;
+}
+
+.intro{
+    background-image: url(https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&w=600);
+    color: rgb(83, 83, 199);
+    border-radius: 30px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border:solid 5px black;
+    
+}
+
+.parra{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 60px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgn{
+width: 30%;
+padding: 0%;
+border-radius: 30px;
+border:solid 5px white;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: lightseagreen;
+    height: auto;
+    width: 100;
+    font-family: "Open Sans";
+    padding-top: 39px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: auto;
+
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    
+
+}
+.socials a:hover i{
+    color: lightgreen;
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    width: 205.3vh;
+    padding: 10px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.raya1{
+    background-color:black;
+    width: 100%;
+    padding: -200px;
+}
